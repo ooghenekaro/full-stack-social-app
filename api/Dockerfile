@@ -9,7 +9,6 @@ RUN yarn install
 COPY . .
 
 ENV NODE_ENV=production
-ENV MONGO_URL = mongodb+srv://ooghenekaro:D30Jsdg8aYGfw2sJ@kudos-cluster.othz6ca.mongodb.net/bobo?retryWrites=true&w=majority
 
 
 CMD [ "yarn", "start" ]
